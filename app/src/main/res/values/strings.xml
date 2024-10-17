@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WorkNumber2</string>
+    <string name="open_activityb">Open ActivityB</string>
+    <string name="open_fragmentb">Open FragmentB</string>
+    <string name="open_activityc">Open ActivityC</string>
+    <string name="open_activitya">Open ActivityA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentba">FragmentBA</string>
+    <string name="open_fragmentbb">Open FragmentBB</string>
+    <string name="fragmentbb">FragmentBB</string>
+    <string name="sendcolor">SendColor</string>
+</resources>
