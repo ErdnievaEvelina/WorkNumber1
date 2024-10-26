@@ -2,6 +2,7 @@ package com.example.worknumber2
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class ActivityB : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("activityB",taskId.toString())
         setContentView(R.layout.activity_b)
         val btnOpenActivityC= findViewById<Button>(R.id.btnOpenActivityC)
         btnOpenActivityC.setOnClickListener {

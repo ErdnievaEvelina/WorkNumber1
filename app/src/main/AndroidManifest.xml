@@ -19,6 +19,7 @@
             android:name=".ActivityB"
             android:exported="false" />
         <activity
+            android:taskAffinity=".myAffinity"
             android:name=".ActivityA"
             android:exported="true">
             <intent-filter>
